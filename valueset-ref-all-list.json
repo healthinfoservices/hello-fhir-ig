@@ -1,0 +1,209 @@
+{
+  "codeSystems" : [{
+    "url" : "http://hl7.org/fhir/ValueSet/all-languages",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "AllLanguages",
+    "title" : "All Languages",
+    "description" : "This value set includes all possible codes from BCP-47 (see http://tools.ietf.org/html/bcp47)",
+    "systems" : ["urn:ietf:bcp:47"],
+    "oids" : ["2.16.840.1.113883.4.642.3.21"],
+    "sources" : ["2.16.840.1.113883.4.642.3.21"],
+    "uses" : {
+    },
+    "StructureDefinition-MyCondition.html" : "MyCondition"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/body-site",
+    "version" : "5.0.0",
+    "status" : "draft",
+    "name" : "SNOMEDCTBodyStructures",
+    "title" : "SNOMED CT Body Structures",
+    "description" : "This value set includes all codes from [SNOMED CT](http://snomed.info/sct) where concept is-a 442083009 (Anatomical or acquired body site (body structure)).",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["2.16.840.1.113883.4.642.3.653",
+    "2.16.840.1.113883.4.642.2.78",
+    "2.16.840.1.113883.4.642.3.141"],
+    "sources" : ["2.16.840.1.113883.4.642.3.653",
+    "2.16.840.1.113883.4.642.2.78",
+    "2.16.840.1.113883.4.642.3.141"],
+    "uses" : {
+    },
+    "StructureDefinition-MyCondition.html" : "MyCondition"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/clinical-findings",
+    "version" : "5.0.0",
+    "status" : "draft",
+    "name" : "SNOMEDCTClinicalFindings",
+    "title" : "SNOMED CT Clinical Findings",
+    "description" : "This value set includes all the \"Clinical finding\" [SNOMED CT](http://snomed.info/sct) codes - concepts where concept is-a 404684003 (Clinical finding (finding)).",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["2.16.840.1.113883.4.642.3.232",
+    "2.16.840.1.113883.4.642.3.227",
+    "2.16.840.1.113883.4.642.2.115"],
+    "sources" : ["2.16.840.1.113883.4.642.3.232",
+    "2.16.840.1.113883.4.642.3.227",
+    "2.16.840.1.113883.4.642.2.115"],
+    "uses" : {
+    },
+    "StructureDefinition-MyCondition.html" : "MyCondition"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/condition-category",
+    "version" : "5.0.0",
+    "status" : "draft",
+    "name" : "ConditionCategoryCodes",
+    "title" : "Condition Category Codes",
+    "description" : "Preferred value set for Condition Categories.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/condition-category"],
+    "oids" : ["2.16.840.1.113883.4.642.3.153",
+    "2.16.840.1.113883.4.642.3.162",
+    "2.16.840.1.113883.4.642.2.73"],
+    "sources" : ["2.16.840.1.113883.4.642.3.153",
+    "2.16.840.1.113883.4.642.3.162",
+    "2.16.840.1.113883.4.642.2.73"],
+    "uses" : {
+    },
+    "StructureDefinition-MyCondition.html" : "MyCondition"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/condition-clinical",
+    "version" : "5.0.0",
+    "status" : "draft",
+    "name" : "ConditionClinicalStatusCodes",
+    "title" : "Condition Clinical Status Codes",
+    "description" : "Preferred value set for Condition Clinical Status.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/condition-clinical"],
+    "oids" : ["2.16.840.1.113883.4.642.3.155",
+    "2.16.840.1.113883.4.642.3.164",
+    "2.16.840.1.113883.4.642.2.74"],
+    "sources" : ["2.16.840.1.113883.4.642.3.155",
+    "2.16.840.1.113883.4.642.3.164",
+    "2.16.840.1.113883.4.642.2.74"],
+    "uses" : {
+    },
+    "StructureDefinition-MyCondition.html" : "MyCondition"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/condition-code",
+    "version" : "5.0.0",
+    "status" : "draft",
+    "name" : "ConditionProblemDiagnosisCodes",
+    "title" : "Condition/Problem/Diagnosis Codes",
+    "description" : "Example value set for Condition/Problem/Diagnosis codes.",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["2.16.840.1.113883.4.642.3.161",
+    "2.16.840.1.113883.4.642.2.72",
+    "2.16.840.1.113883.4.642.3.152"],
+    "sources" : ["2.16.840.1.113883.4.642.3.161",
+    "2.16.840.1.113883.4.642.2.72",
+    "2.16.840.1.113883.4.642.3.152"],
+    "uses" : {
+    },
+    "StructureDefinition-MyCondition.html" : "MyCondition"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/condition-stage",
+    "version" : "5.0.0",
+    "status" : "draft",
+    "name" : "ConditionStage",
+    "title" : "Condition Stage",
+    "description" : "Value set for stages of cancer and other conditions.",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["2.16.840.1.113883.4.642.3.161",
+    "2.16.840.1.113883.4.642.3.170",
+    "2.16.840.1.113883.4.642.2.408"],
+    "sources" : ["2.16.840.1.113883.4.642.3.161",
+    "2.16.840.1.113883.4.642.3.170",
+    "2.16.840.1.113883.4.642.2.408"],
+    "uses" : {
+    },
+    "StructureDefinition-MyCondition.html" : "MyCondition"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/condition-stage-type",
+    "version" : "5.0.0",
+    "status" : "draft",
+    "name" : "ConditionStageType",
+    "title" : "Condition Stage Type",
+    "description" : "Example value set for the type of stages of cancer and other conditions",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["2.16.840.1.113883.4.642.3.171"],
+    "sources" : ["2.16.840.1.113883.4.642.3.171"],
+    "uses" : {
+    },
+    "StructureDefinition-MyCondition.html" : "MyCondition"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/condition-ver-status",
+    "version" : "5.0.0",
+    "status" : "draft",
+    "name" : "ConditionVerificationStatus",
+    "title" : "Condition Verification Status",
+    "description" : "The verification status to support or decline the clinical status of the condition or diagnosis.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/condition-ver-status"],
+    "oids" : ["2.16.840.1.113883.4.642.3.157",
+    "2.16.840.1.113883.4.642.2.75",
+    "2.16.840.1.113883.4.642.3.166"],
+    "sources" : ["2.16.840.1.113883.4.642.3.157",
+    "2.16.840.1.113883.4.642.2.75",
+    "2.16.840.1.113883.4.642.3.166"],
+    "uses" : {
+    },
+    "StructureDefinition-MyCondition.html" : "MyCondition"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/languages",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "CommonLanguages",
+    "title" : "Common Languages",
+    "description" : "This value set includes common codes from BCP-47 (see http://tools.ietf.org/html/bcp47)",
+    "systems" : ["urn:ietf:bcp:47"],
+    "oids" : ["2.16.840.1.113883.4.642.3.891",
+    "2.16.840.1.113883.4.642.3.20"],
+    "sources" : ["2.16.840.1.113883.4.642.3.891",
+    "2.16.840.1.113883.4.642.3.20"],
+    "uses" : {
+    },
+    "StructureDefinition-MyCondition.html" : "MyCondition"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/participation-role-type",
+    "version" : "5.0.0",
+    "status" : "draft",
+    "name" : "ParticipationRoleType",
+    "title" : "Participation Role Type",
+    "description" : "This FHIR value set is comprised of Actor participation Type codes, which can be used to value FHIR agents, actors, and other role elements. The codes are intended to express how the agent participated in some activity. Sometimes refered to the agent functional-role relative to the activity.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/extra-security-role-type",
+    "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
+    "http://dicom.nema.org/resources/ontology/DCM"],
+    "oids" : ["2.16.840.1.113883.4.642.3.54"],
+    "sources" : ["2.16.840.1.113883.4.642.3.54"],
+    "uses" : {
+    },
+    "StructureDefinition-MyCondition.html" : "MyCondition"
+  },
+  {
+    "url" : "https://healthinfoservices.net/hello-fhir-ig/ValueSet/obs-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "ObsVS",
+    "title" : "Observation ValueSet",
+    "description" : "Use all LOINC codes for observations",
+    "systems" : ["http://loinc.org"]
+  },
+  {
+    "url" : "https://healthinfoservices.net/hello-fhir-ig/ValueSet/severity-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "SeverityVS",
+    "title" : "Condition Severity Valueset",
+    "description" : "",
+    "systems" : ["http://snomed.info/sct"],
+    "uses" : {
+    },
+    "StructureDefinition-MyCondition.html" : "MyCondition"
+  }]
+}

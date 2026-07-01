@@ -1,0 +1,26 @@
+# hello.fhir.ig#0.1.0: Template FHIR Implementation Guide - R5(en)
+
+## Pages
+
+* [Template Implementation Guide](index.md)
+* [Extensions](extensions.md)
+* [Artifacts Summary](artifacts.md)
+* [Data Type Profiles](datatypes.md)
+* [Terminology](terminology.md)
+* [Authoring a FHIR IG using this template](gettingstarted.md)
+* [Resource Profiles](resources.md)
+
+## Resources
+
+### ValueSets
+
+* [Observation ValueSet](ValueSet-obs-vs.md)
+* [Condition Severity Valueset](ValueSet-severity-vs.md)
+
+### Resource Profiles
+
+* [MyCondition](StructureDefinition-MyCondition.md)
+
+### ImplementationGuides
+
+* [Template FHIR Implementation Guide - R5](ImplementationGuide-hello.fhir.ig.md)

@@ -1,0 +1,55 @@
+HelloFHIRIG : Validation Results
+=========================================
+
+err = 0, warn = 11, info = 22
+IG Publisher Version: 2.2.10
+Generated Wed Jul 01 02:15:04 UTC 2026. FHIR version 5.0.0 for hello.fhir.ig#0.1.0 (canonical = https://healthinfoservices.net/hello-fhir-ig)
+ Build Errors : 5 / 3 / 0
+ /home/runner/work/hello-fhir-ig/hello-fhir-ig/fsh-generated/resources/ImplementationGuide-hello.fhir.ig : 0 / 0 / 19
+ /home/runner/work/hello-fhir-ig/hello-fhir-ig/fsh-generated/resources/StructureDefinition-MyCondition : 0 / 2 / 3
+ /home/runner/work/hello-fhir-ig/hello-fhir-ig/fsh-generated/resources/ValueSet-obs-vs : 0 / 2 / 2
+ /home/runner/work/hello-fhir-ig/hello-fhir-ig/fsh-generated/resources/ValueSet-severity-vs : 0 / 4 / 2
+</table>
+== n/a ==
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/severity-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: en/datatypes.html#/html/body/div/div/div/div/div/p/a at Line 190, column 5: The link 'artifacts.html#structures-data-type-profiles' for "Data Type Profiles" cannot be resolved (valid targets: [terminology-value-sets, segment-header, publish-box, bottom, segment-post-footer, structures-resource-profiles, ig-status, artifacts-summary, 1, 2, top, stripe, segment-footer, segment-navbar, segment-content, segment-breadcrumb])
+ERROR: en/extensions.html#/html/body/div/div/div/div/div/p/a at Line 175, column 5: The link 'artifacts.html#structures-extension-definitions' for "Extensions" cannot be resolved (valid targets: [terminology-value-sets, segment-header, publish-box, bottom, segment-post-footer, structures-resource-profiles, ig-status, artifacts-summary, 1, 2, top, stripe, segment-footer, segment-navbar, segment-content, segment-breadcrumb])
+ERROR: en/index.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 275, column 12: The link 'artifacts.html#structures-data-type-profiles' for "Data Type Profiles" cannot be resolved (valid targets: [terminology-value-sets, segment-header, publish-box, bottom, segment-post-footer, structures-resource-profiles, ig-status, artifacts-summary, 1, 2, top, stripe, segment-footer, segment-navbar, segment-content, segment-breadcrumb])
+ERROR: en/index.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 279, column 12: The link 'artifacts.html#structures-extension-definitions' for "Extensions" cannot be resolved (valid targets: [terminology-value-sets, segment-header, publish-box, bottom, segment-post-footer, structures-resource-profiles, ig-status, artifacts-summary, 1, 2, top, stripe, segment-footer, segment-navbar, segment-content, segment-breadcrumb])
+ERROR: en/terminology.html#/html/body/div/div/div/div/div/p/a at Line 177, column 5: The link 'artifacts.html#terminology-naming-systems' for "Naming Systems" cannot be resolved (valid targets: [terminology-value-sets, segment-header, publish-box, bottom, segment-post-footer, structures-resource-profiles, ig-status, artifacts-summary, 1, 2, top, stripe, segment-footer, segment-navbar, segment-content, segment-breadcrumb])
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/ImplementationGuide-hello.fhir.ig.json ==
+INFORMATION: ImplementationGuide/hello.fhir.ig: ImplementationGuide.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+INFORMATION: ImplementationGuide/hello.fhir.ig: ImplementationGuide.definition.parameter[3].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/hello.fhir.ig: ImplementationGuide.definition.parameter[4].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/hello.fhir.ig: ImplementationGuide.definition.parameter[5].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/hello.fhir.ig: ImplementationGuide.definition.parameter[6].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/hello.fhir.ig: ImplementationGuide.definition.parameter[7].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/hello.fhir.ig: ImplementationGuide.definition.parameter[8].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/hello.fhir.ig: ImplementationGuide.definition.parameter[9].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/hello.fhir.ig: ImplementationGuide.definition.parameter[10].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/hello.fhir.ig: ImplementationGuide.definition.parameter[11].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/hello.fhir.ig: ImplementationGuide.definition.parameter[12].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/hello.fhir.ig: ImplementationGuide.definition.parameter[13].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/hello.fhir.ig: ImplementationGuide.definition.parameter[14].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/hello.fhir.ig: ImplementationGuide.definition.parameter[15].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/hello.fhir.ig: ImplementationGuide.definition.parameter[16].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/hello.fhir.ig: ImplementationGuide.definition.parameter[17].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: ImplementationGuide/hello.fhir.ig: ImplementationGuide.definition.parameter[23].code: Reference to experimental CodeSystem http://hl7.org/fhir/guide-parameter-code|5.0.0
+INFORMATION: Resource: The resource ImplementationGuide/hello.fhir.ig could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/StructureDefinition-MyCondition.json ==
+INFORMATION: StructureDefinition/MyCondition: StructureDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+WARNING: StructureDefinition/MyCondition: StructureDefinition.snapshot.element[25].binding: The definition for the element 'Condition.participant.function' binds to the value set 'http://hl7.org/fhir/ValueSet/participation-role-type|5.0.0' which is experimental, but this structure is not labeled as experimental
+INFORMATION: Resource: The resource StructureDefinition/MyCondition could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+WARNING: StructureDefinition.where(url = 'https://healthinfoservices.net/hello-fhir-ig/StructureDefinition/MyCondition'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/ValueSet-obs-vs.json ==
+INFORMATION: ValueSet/obs-vs: ValueSet.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+WARNING: ValueSet/obs-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: Resource: The resource ValueSet/obs-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/ValueSet-severity-vs.json ==
+INFORMATION: ValueSet/severity-vs: ValueSet.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/ValueSet/jurisdiction|5.0.0
+WARNING: ValueSet/severity-vs: ValueSet.compose.include[0].concept[1].display: 'Moderate' is no longer considered a correct display for code '6736007' (status = inactive). The correct display is one of Midgrade,Moderate (severity modifier) (qualifier value),Moderate (severity modifier),Moderate severity
+WARNING: ValueSet/severity-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: ValueSet/severity-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+WARNING: Resource: The resource ValueSet/severity-vs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)

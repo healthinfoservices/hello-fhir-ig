@@ -1,0 +1,60 @@
+{
+  "codeSystems" : [{
+    "url" : "http://loinc.org",
+    "version" : "2.82",
+    "status" : "active",
+    "name" : "LOINC",
+    "title" : null,
+    "description" : "This is a place holder for the code system which is fully supported through internal means (not by this code system)",
+    "uses" : {
+    },
+    "ValueSet-obs-vs.html" : "Observation ValueSet"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/condition-category",
+    "version" : "2.0.0",
+    "status" : "active",
+    "name" : "ConditionCategoryCodes",
+    "title" : "Condition Category Codes",
+    "description" : "Preferred value set for Condition Categories.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1073"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-condition-category.html" : "Condition Category Codes"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/condition-clinical",
+    "version" : "3.0.0",
+    "status" : "active",
+    "name" : "ConditionClinicalStatusCodes",
+    "title" : "Condition Clinical Status Codes",
+    "description" : "Preferred value set for Condition Clinical Status.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1074"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-condition-clinical.html" : "Condition Clinical Status Codes"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+    "version" : "2.0.1",
+    "status" : "active",
+    "name" : "ConditionVerificationStatus",
+    "title" : "ConditionVerificationStatus",
+    "description" : "The verification status to support or decline the clinical status of the condition or diagnosis.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1075"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-condition-ver-status.html" : "Condition Verification Status"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/extra-security-role-type",
+    "version" : "1.0.1",
+    "status" : "active",
+    "name" : "SecurityRoleType",
+    "title" : "Security Role Type",
+    "description" : "This CodeSystem contains Additional FHIR-defined Security Role types not defined elsewhere",
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-participation-role-type.html" : "Participation Role Type"
+  }]
+}
