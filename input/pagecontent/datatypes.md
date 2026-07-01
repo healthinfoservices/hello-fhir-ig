@@ -11,9 +11,6 @@ For each data type fill out the following sections
 
 (link to the new structure definition)
 
-#### Pacific Name Usage  
-
-(identify which resources may use this datatype)
 
 #### Extensions  
 
@@ -22,5 +19,6 @@ For each data type fill out the following sections
 ### Data Type Profiles
 
 [Data Type Profiles](artifacts.html#structures-data-type-profiles)
+
 
 
