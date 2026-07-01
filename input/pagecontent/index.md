@@ -21,14 +21,9 @@ This guide is intended for:
 * Clinical/Technical Advisors and Working Groups
 * Vendors
 
+### Profiles, Extensions & Terminology  
 
-### Getting Started, Contributions and Feedback
-
-New users should begin with:
-
-* [Getting Started](gettingstarted.html)
-
-Then review the following key artifacts:
+Profiles, extensions and terminology defined in this IG are linked in the table below:
 
 | Category | Description |
 |------------|-------------|
@@ -37,6 +32,15 @@ Then review the following key artifacts:
 | [Extensions](artifacts.html#structures-extension-definitions)   | Extended data elements |
 | [Terminology](terminology.html) | Terminology bindings |
 | Downloads | Package and definitions |
+
+### Getting Started with this Template
+
+You can find the source for this template [here](https://github.com/healthinfoservices/hello-fhir-ig).
+
+New users wanting to create an IG using this template should begin with:
+
+* [Getting Started](gettingstarted.html)
+
 
 
 ### Primary Contributors  
